@@ -1,0 +1,50 @@
+.image {
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Keeps aspect ratio */
+    display: block; /* Centers the image */
+    margin: 10px auto; /* Adds space and centers it */
+}
+.stopwatch {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    width: 80px;
+    height: 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#stop {
+    background-color: #FF9800;
+    color: #fff;
+}
+
+#reset {
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.controls button:hover {
+    opacity: 0.8;
+}
